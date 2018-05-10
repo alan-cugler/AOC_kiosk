@@ -1,0 +1,9 @@
+_model: MainMenu
+---
+tab_title: AOC Kiosk
+---
+page_title: What would you like to do?
+---
+card_text: 
+---
+logo: aoclogo.png

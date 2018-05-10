@@ -1,0 +1,148 @@
+/*
+	Comment
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+
+body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.main {
+	background: url('background.jpg');
+}
+
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+h1 {
+	color: #ffffff;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	font-size: 36pt; 
+}
+
+h2 {
+	color: #ffffff;
+	text-align: left;
+	font-family: "Raleway", sans-serif;
+	font-size: 24pt; 
+}
+
+
+
+hr.grad { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navigation {
+	background: #457b9d;
+	width: 150px;
+	height: 225px;
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	color: #ffffff;
+	font-family: "Raleway", sans-serif;
+	font-size: 16pt;
+	text-decoration: none;
+	margin: 20px;
+	float: left;
+}
+
+.sidebar {
+	background-image: url('graphics/background.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	width:10%;
+	height: 1400px;
+	float: left;
+	margin: 0px;
+	color: #ffffff;
+	overflow: hidden;
+	font-family:"Raleway", sans-serif;
+	font-size: 16px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content {
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background: #ffffff;
+	float: left;
+	width: 88%
+}
+
+div.event{
+	color: #000000;
+	margin-left: 10px;
+	margin-top:10px;
+	font-family: "Raleway", sans-serif;
+	clear: both;
+	padding-bottom: 0px;
+}
+
+
+img.event {
+	float: left;
+	margin-right:10px;
+}
+
+p.event {
+	font-family: "Raleway", sans-serif;
+	font-size: 11pt;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+h2.event {
+	color:#000000;
+	text-align: left;
+	font-family: "Raleway", sans-serif;
+	font-size: 18pt;
+	margin-bottom: 0px;
+}
+
+h3.event {
+	color:#000000;
+	text-align:left;
+	font-family: "Raleway", sans-serif;
+	font-size: 16pt;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+
+a.event {
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+div.eventf{
+	background-color: #a7c17c;
+	color: #000000;
+	margin-left: 10px;
+	margin-top:10px;
+	font-family: "Raleway", sans-serif;
+	clear: both;
+	padding-bottom: 0px;
+}
