@@ -1,0 +1,17 @@
+_model: iframes
+---
+tab_title: AOC Events
+---
+link: /
+---
+sidebar_notes: Preview the list of from the list of upcoming events and click on the link to register.
+---
+sidebar_title: Attend an AOC Event
+---
+text: Home Page
+---
+thumbnail: home.png
+---
+_template: events.html
+---
+urllink: https://austinoaks.ccbchurch.com/w_calendar.php?show_navigation=1

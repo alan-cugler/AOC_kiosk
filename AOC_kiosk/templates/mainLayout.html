@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ this.tab_title }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/kiosk.css">
+    <script src="{{ '/static/windowPopUp.js'|asseturl }}"></script>
+  </head>
+
+  <body class="main" onLoad="loaded();"> 
+    <div class="mainTitleDiv">
+      <h1>{{ this.page_title }}</h1>
+    </div>
+
+    {% include "button.html" %}
+
+    <div style="clear: both;">
+      <p align=center>
+	<img src="{{ this.logo }}" class="mainlogo">
+      </p>
+    </div>
+
+  </body>
+</html>

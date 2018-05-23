@@ -1,0 +1,19 @@
+_model: iframes
+---
+tab_title: Donate to AOC
+---
+link: /
+---
+sidebar_notes: <p>Complete the form to make a one-time gift to Austin Oaks Church</p>
+---
+sidebar_title: Give Online
+---
+text: Home Page
+---
+thumbnail: home.png
+---
+urllink: https://austinoaks.ccbchurch.com/w_give_online.php
+---
+_template: donations.html
+---
+template: iframes.html

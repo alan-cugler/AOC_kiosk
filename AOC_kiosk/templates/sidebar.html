@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ this.tab_title }}</title>
+    <link rel="stylesheet" type="text/css" href="/static/kiosk.css">
+  </head>
+  
+  <body>
+    <div class="sidebar">
+      <h2>{{ this.sidebar_title }}</h2>
+      {{ this.sidebar_notes }} 
+			
+      <hr class="grad">
+      <div style="width:100%; padding-top: 25px;">
+        <a href="{{ this.link }}">
+          <img src="{{ this.thumbnail }}" width=50>
+          <br>
+	  {{ this.text }}
+        </a>
+      </div>
+    </div>
+
+    {% block body_content %}
+    {% endblock %}
+
+  </body>
+</html>

@@ -1,6 +1,4 @@
-/*
-	Comment
-*/
+/* Will refactor for commenting file association with .classes */
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300');
 
@@ -35,8 +33,6 @@ h2 {
 	font-size: 24pt; 
 }
 
-
-
 hr.grad { 
   border: 0; 
   height: 1px; 
@@ -48,7 +44,7 @@ hr.grad {
   margin-bottom: 25px;
 }
 
-.navigation {
+.outer_navigation {
 	background: #457b9d;
 	width: 150px;
 	height: 225px;
@@ -62,11 +58,25 @@ hr.grad {
 	font-size: 16pt;
 	text-decoration: none;
 	margin: 20px;
-	float: left;
+        float: left;
+}
+
+.inner_navigation {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:125px;
+}
+
+.thumb_size {
+  Background-size: contain;
+  max-width: 90%;
+  max-height: 90%;
+  
 }
 
 .sidebar {
-	background-image: url('graphics/background.jpg');
+	background-image: url('background.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	width:10%;
@@ -80,6 +90,33 @@ hr.grad {
 	padding-top: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.centerlogo {
+  width: 600px;
+  margin-bottom:10px;
+}
+
+.iframes {
+  width: 100%;
+  height: 1000px;
+  border: 0px;
+}
+
+.iframes01 {
+  border: 0px;
+  width: 1100px;
+  height: 450px;
+}
+
+.mainlogo {
+  padding-top: 50px;
+  width: 300px;
+}
+
+.mainTitleDiv {
+  padding-top: 30px;
+  padding-bottom: 30px
 }
 
 .content {

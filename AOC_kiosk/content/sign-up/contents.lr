@@ -1,0 +1,19 @@
+_model: signup
+---
+tab_title: The Hub
+---
+link: /
+---
+sidebar_notes: <p>If you don't have an account on The Hub yet, you can sign up by clicking the "Sign Up" link on the form.</p>
+---
+sidebar_title: Sign Up for The Hub
+---
+text: Home Page
+---
+thumbnail: home.png
+---
+urllink: https://austinoaks.ccbchurch.com/w_sign_up.php
+---
+_template: signup.html
+---
+logo: hub_logo_full.jpg

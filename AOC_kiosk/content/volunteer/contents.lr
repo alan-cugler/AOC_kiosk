@@ -1,0 +1,21 @@
+_model: iframes
+---
+tab_title: Serve at AOC
+---
+link: /
+---
+sidebar_notes:
+
+<p>These are our most urgent needs for volunteers. Sign up and serve in one of these areas and advance good in our community.</p>
+
+<p>Check out the "Serve" Section on The Hub for these and other opportunities to advance good at Austin Oaks Church.</p>
+---
+sidebar_title: Find Your Place
+---
+text: Home Page
+---
+thumbnail: home.png
+---
+_template: volunteers.html
+---
+urllink: https://austinoaks.ccbchurch.com/serve_detail.php

@@ -1,0 +1,26 @@
+_model: iframes
+---
+_template: groups.html
+---
+sidebar_title: Find a Small Group
+---
+tab_title: Small Groups
+---
+sidebar_notes:
+
+<p>Search for a group that suits your schedule or location.</p>
+
+<p>Click on the group name for a group description, and then email the leader for information on when you can come check the group out</p>
+---
+buttons:
+
+#### button ####
+thumbnail: home.png
+---
+link: /
+---
+text: Home Page
+---
+urllink: https://austinoaks.ccbchurch.com/w_group_list.php
+---
+thumbnail: home.png

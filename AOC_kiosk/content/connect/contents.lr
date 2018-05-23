@@ -1,0 +1,19 @@
+_model: iframes
+---
+tab_title: Connect at AOC
+---
+_template: connect.html
+---
+link: /
+---
+sidebar_notes: Please fill out the card and let us know what you think!
+---
+sidebar_title: We'd like to connect with you
+---
+text: Home Page
+---
+thumbnail: home.png
+---
+urllink: https://austinoaks.ccbchurch.com/goto/forms/5/responses/new/
+---
+template: iframes.html

@@ -1,0 +1,16 @@
+
+<center>
+	<div style="width:1300px">        
+
+	  {% for button in this.buttons.blocks %}
+	    <a href="{{ button.link }}">
+              <div class="outer_navigation">
+                <div class="inner_navigation">
+                  <img src="{{ button.thumbnail }}" class="thumb_size">
+                </div>
+                {{ button.text }}
+              </div>
+	    </a>
+	  {% endfor %}
+	</div>
+</center>

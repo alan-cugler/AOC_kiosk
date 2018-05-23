@@ -1,9 +1,50 @@
-_model: MainMenu
+_model: mainLayout
 ---
 tab_title: AOC Kiosk
 ---
 page_title: What would you like to do?
 ---
-card_text: 
----
 logo: aoclogo.png
+---
+copy_right: 
+---
+buttons:
+
+#### button ####
+thumbnail: people.png
+----
+text: Find an AOC small group
+----
+link: groups
+#### button ####
+thumbnail: credit_card.png
+----
+text: Give online with your credit or debit card
+----
+link: donations
+#### button ####
+thumbnail: calendar.png
+----
+text: Attend an upcoming event
+----
+link: events
+#### button ####
+thumbnail: hand.png
+----
+text: Volunteer and help us meet our most urgent needs
+----
+link: volunteer
+#### button ####
+thumbnail: file_write.png
+----
+text: Fill out a connection card
+----
+link: connect
+#### button ####
+thumbnail: hub_logo.png
+----
+text: Sign up for an account on The Hub
+----
+link: sign-up
+---
+_template: mainLayout.html
